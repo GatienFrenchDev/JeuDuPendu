@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(multi));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button26 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
@@ -438,6 +439,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "multi";
             this.Text = "Jeu Du Pendu | En Jeu";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.multi_FormClosed);

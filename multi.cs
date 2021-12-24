@@ -37,8 +37,6 @@ namespace JeuDuPendu
                 mot_cache = mot_cache + "-";
             }
             label1.Text = mot_cache;
-
-            Console.WriteLine(mot);
         }
 
         private void VerifLettre(object sender) // fonction pour trouver si la lettre est dans le mot ou pas
@@ -67,6 +65,7 @@ namespace JeuDuPendu
                         if (label1.Text == mot)
                         {
                             MessageBox.Show($"Félicitations vous avez trouvé le mot {mot} !", "Félicitations");
+                            this.Hide();
                             Form1 form = new Form1();
                             form.ShowDialog();
 

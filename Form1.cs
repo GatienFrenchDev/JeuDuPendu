@@ -35,5 +35,10 @@ namespace JeuDuPendu
             choix choix = new choix();
             choix.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Le Jeu Du Pendu\nCodé par Gatien GILLOT\nLanguage utilisé : C#\nCode du logiciel disponible sur mon Github : @GatienFrenchDev\nContact : contact@gatiendev.tk", "Jeu Du Pendu | A Propos");
+        }
     }
 }
